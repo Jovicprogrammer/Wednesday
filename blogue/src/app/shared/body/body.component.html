@@ -1,0 +1,16 @@
+<body>
+    <div class="hand">
+    <h2 *ngIf= "show === true; else Other"><img width="120" height="120" src="/assets/images/handright.png" (click)="showImager()"></h2>
+    <ng-template #Other>  
+        <img width="120" height="120" src= "/assets/images/handleft.png" (click)="showImager2()"></ng-template>
+    </div>
+    <div class="title-item" (mouseenter)="playVideo()" (mouseleave)="stopVideo()"></div>
+    <video width="800" height="400" src="/assets/videos/wednesay.mp4"
+    poster="/assets/images/titulo.jpg"
+    controls
+    muted
+    loop>
+    </video>
+    
+
+</body>

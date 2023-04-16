@@ -1,0 +1,40 @@
+<body>
+    <video id="background-video" autoplay loop muted poster="/assets/images/bb.jpg">
+        <source src="/assets/videos/nevermore.mp4" type="video/mp4">
+    </video>
+    <h1><img width="100" height="100" src="/assets/images/skull.png" alt="caveira"></h1>
+    <section class="maq">
+        
+        <div class="as">
+            <h2>Conheça Maquiavel</h2>
+            <p>
+                Nicolau Maquiavel foi um importante teórico, pensador político, filósofo, historiador, diplomata, músico e escritor do Renascimento. Considerado o "Pai do Pensamento Político Moderno", nasceu em Florença, Itália, no dia 03 de maio de 1469. Pertencente a uma família pobre, Nicolau desde cedo aprendeu línguas e foi estimulado nos estudos.
+
+Em 1498, com 29 anos, entra para a política, exercendo o cargo de "Secretário da Segunda Chancelaria". Teve uma vasta carreira política, o qual ocupou alguns cargos sendo, muitas vezes, indicado para realizar missões diplomáticas.
+
+Defensor dos ideais republicanos, sua teoria estava pautada nos princípios morais e éticos para a Política. Foi o primeiro a separar a Política da Ética com o intuito de estudar a cultura política como ela é realmente e não como ela deveria ser.
+
+Ademais seus estudos estão baseados nos conceitos: união da teoria e da prática; empirismo e método indutivo; Estados imaginários Perfeitos e imutabilidade da natureza humana. A partir disso, em 1520, Maquiavel recebe o título de mais importante historiador de Florença. Em 1527, com a queda dos Médici, foi considerado um tirano e morre nesse ano no dia 21 de junho de 1527.
+            </p>
+        </div>
+        <img width="450" height="600" src="/assets/images/maq.jpg" alt="Maquiavel">
+    </section>
+
+<section class="dance">
+    
+    <img *ngIf= " hiddenDance === true; else otherDance " src="../../assets/images/dance.jpg" (click)="showBloody()" />
+    <ng-template #otherDance>  
+        <img src= "../../assets/images/dance2.png" (click)="showBloody()"></ng-template> 
+
+    <div class="handss">
+        
+        <p>
+            I'll dance, dance, dance<br>
+            With my hands, hands<br>
+            Hands above my head, head, head<br>
+            Like Jesus said
+        </p>
+    </div>
+
+</section>
+</body>

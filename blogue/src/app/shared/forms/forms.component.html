@@ -1,0 +1,32 @@
+
+<section>
+    <h2>★·. Matricule-se na Nevermore Academy! .·★</h2>
+    <form>
+        <input 
+        type="text"
+        [(ngModel)] = "name"
+        name = "name"
+        placeholder="Matricule-se aqui"
+        />
+        <input type="submit" value="enviar"/>
+        </form>
+        <div *ngIf="name !== '' ">
+            <p>
+                {{ name }} se matriculou!
+            </p>
+        </div>
+        <div class="form">
+            <h2>Confira alguns dos alunos</h2>
+            <ul>
+                <li *ngFor="let alumni of alumnis">
+                    Nome: {{ alumni.name }} - idade: {{ alumni.age }}
+                    <button (click)="showSpecie(alumni)">mostrar espécie</button>
+                    <button (click)="removeAlumni(alumni)">excluir</button>
+                </li>
+            </ul>
+            <p>
+                {{ alumniDetails }}
+            </p>
+
+        </div>
+</section>

@@ -1,0 +1,43 @@
+footer {
+
+
+    padding-bottom: 0px;
+    padding: 50px;
+    border-top: 2px solid plum;
+    margin-top: 50px;
+    padding-top: 40px;
+    margin: 40px;
+    
+
+}
+
+div {
+
+    padding-top: 40px;
+    justify-content: center;
+    text-align: center;
+    padding: 30;
+    margin: 30;
+    background-color: rgb(7, 3, 24);
+
+}
+
+div a {
+
+    margin-right: 30px;
+    color: rgb(134, 149, 170);
+    justify-content: center;
+}
+
+div p {
+    
+    margin-bottom: 0px;
+    justify-content: center;
+    color: aliceblue;
+    padding: 40px;
+    margin: 0px; 
+ 
+}
+
+
+

@@ -1,0 +1,30 @@
+<section>
+    <video id="background-video" autoplay loop muted poster="/assets/images/bb.jpg">
+        <source src="/assets/videos/nevermore.mp4" type="video/mp4">
+      </video>
+    <h2>{{ titlec }}</h2>
+<div class="persona">
+    <img *ngIf= "enid === true; else Wolf" width="200" height="300" src="assets/images/Enid.png" (click)="showWolf()" alt="Enid" />
+    <ng-template #Wolf>  
+        <img width="200" height="300" src= "/assets/images/loba.png" (click)="showEnid()"></ng-template>
+    <img width="200" height="300" src="assets/images/Bianca.png" alt="Bianca">
+    <img *ngIf= "tyler === true; else Monster" width="200" height="300" src="assets/images/Tyler.png" (click)="showMonster()" alt="Tyler" />
+    <ng-template #Monster>  
+        <img width="200" height="300" src= "/assets/images/monster.png" (click)="showTyler()" />  </ng-template>
+
+</div>
+<div class="hs">
+    <h3 class="enid">Enid Sinclair</h3>
+    <h3 class="bianca">Bianca Barclay</h3>
+    <h3 class="tyler">Tyler Galpin</h3>
+
+</div>
+<div class="description">
+    
+    <p class="en">Enid é uma mulher lobo animada e colorida.</p>
+    
+    <p class="bi">Bianca é uma hipnótica e popular sereia.</p>
+
+    <p class="ty">Tyler é um padrão excluído que guarda muitos segredos.</p>
+</div>
+</section>

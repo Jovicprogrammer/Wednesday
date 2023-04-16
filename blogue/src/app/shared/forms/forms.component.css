@@ -1,0 +1,57 @@
+section {
+    padding: 15px;
+    margin: 10px;
+    background-color: rgba(84, 4, 100, 0.979);
+}
+
+section h2 {
+
+    font-family: Cambria;
+    color: rgb(231, 210, 17);
+    text-align: center;
+}
+
+section form {
+
+    align-items: center;
+    text-align: center;
+}
+
+div p {
+
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    font-style: italic;
+}
+
+div ul {
+
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+    color: wheat; 
+    border-left: 20px;
+    border-right: 20px;
+    
+}
+
+div ul li {
+
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border-left: 20px;
+    border-right: 20px;
+
+}
+
+div ul li button {
+
+    border-left: 10px;
+    justify-content: space-between;
+    margin:5px;
+}

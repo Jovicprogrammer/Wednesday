@@ -1,0 +1,124 @@
+section video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 20;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  section {
+
+    background-color:  rgba(67, 4, 126, 0.685);
+    
+  }
+.persona {
+
+    padding: 50px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.persona img {
+
+    border: 2px solid gold;
+    border-style:dotted;
+}
+
+section h2 {
+
+    font-size: 30px;
+    color: gold;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.description {
+
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+.hs {
+
+    padding: 0px;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hs h3 {
+
+    color: gold;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(30, 4, 126, 0.685);
+
+
+}
+
+.enid {
+
+    text-align: left;
+    margin-left:110px;
+    background-color:  rgba(30, 4, 126, 0.685);
+    
+
+
+}
+
+.bianca {
+
+    text-align: center;
+    align-items: center;
+    margin-left: 0px;
+    background-color:  rgba(30, 4, 126, 0.685);
+    
+}
+
+.tyler {
+
+    text-align: right;
+    align-items: right;
+    margin-right: 120px;
+    background-color:   rgba(30, 4, 126, 0.685);
+    
+
+}
+
+.en {
+
+    margin-left: 40px;
+    color: wheat;
+    background-color:  rgba(30, 4, 126, 0.685);
+}
+
+.bi {
+
+    margin-left: 50px;
+    color: wheat;
+    background-color:  rgba(30, 4, 126, 0.685);
+
+}
+
+.ty {
+
+    margin-right: 20px;
+    color: wheat;
+    background-color:   rgba(30, 4, 126, 0.685);
+
+}

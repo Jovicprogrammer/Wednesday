@@ -1,0 +1,15 @@
+{
+  "alumnis": [
+      {"name": "Ajax", "age": 16, "gender": "Masculino", "type": "Gorgona"},
+      {"name": "Bianca" , "age": 17 , "gender":"Feminino" ,"type": "Sereia"},
+      {"name": "Enid", "age":16, "gender":"Feminino","type": "Mulher Lobo"},
+      {"name": "Eugene", "age":16,"gender":"Masculino","type": "Psíquico"},
+      {"name": "Wandinha" , "age":16, "gender":"Feminino", "type": "Psíquico"},
+      {"name": "Xavier", "age": 17, "gender":"Masculino", "type":"Psíquico"},
+      {"name": "Yoko", "age": 17, "gender":"Feminino", "type":"Vampiro"}, 
+      {"name": "Divina", "age": 16, "gender":"Feminino", "type":"Sereia"}, 
+      {"name": "Kent", "age": 16, "gender": "Masculino", "type":"Sereia"}
+  
+    ]
+  
+  }

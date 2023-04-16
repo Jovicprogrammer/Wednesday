@@ -1,0 +1,56 @@
+
+section {
+
+    background-image: url(/assets/images/stars.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    margin: 18px; 
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content:space-around;
+
+}
+
+section img {
+
+
+    
+    border: 3px solid gold;
+    border-style: double;
+    text-align: center;
+    align-items: center;
+    margin: 10;
+    padding: 10;
+
+}
+
+div h2 {
+
+    color: gold;
+    text-align: center;
+    margin: 20;
+    padding: 20;
+    font-family: Cambria;
+
+
+ 
+}
+
+div p {
+
+    display: flex;
+    text-align:center;
+    color: antiquewhite;
+    font-size: 15px;
+
+}
+
+.container {
+
+    align-items: center;
+    display: grid;
+}
+
+

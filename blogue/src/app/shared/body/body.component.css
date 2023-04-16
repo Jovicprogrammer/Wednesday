@@ -1,0 +1,45 @@
+body {
+
+    align-items: center;
+    text-align: center;
+    background-image: url(/assets/images/purple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    border-color:rgb(7, 3, 24);
+}
+
+.hand {
+
+    padding: 10px;
+    margin: 0px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+body h1 {
+
+    
+    padding: 10px;
+    margin: 10px; 
+    text-align: center;
+    font-family: 'Cambria';
+    color: aliceblue;
+
+}
+
+body video {
+
+
+    border: 3px solid purple;
+    border-style: double; 
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin: 10;
+
+
+}

@@ -1,0 +1,94 @@
+body video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 20;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+
+body {
+
+    background-image: url(/assets/images/purple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+.maq img {
+    padding: 5px;
+    margin: 10px;
+    border: 3px solid rgb(224, 192, 5);
+    border-style: double;
+
+}
+
+.maq {
+
+    justify-content:space-around;
+    padding: 30px;
+    margin: 18px; 
+    text-align: right;
+    align-items: center;
+    display: flex;
+    border-left: 20px;
+}
+
+.as h2 {
+
+    color: rgb(231, 197, 2); 
+    font-size: 30px; 
+    text-align: center;
+}
+
+.as p {
+
+    color: rgb(255, 241, 241);
+    font-size: 30x;
+    text-align: center;
+    margin:40px;
+    
+
+}
+
+.handss p {
+
+    text-align: center;
+    color: rgb(0, 29, 54);
+    font-family:'Segoe UI';
+    font-size: 20px;
+    font-style: italic;
+}
+
+.dance {
+
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+
+.dance img {
+
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid gold;
+    border-style:groove;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+}
